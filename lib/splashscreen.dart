@@ -25,7 +25,24 @@ class _SplashScreen extends State<SplashScreen> {
     return Scaffold(
       backgroundColor: Colors.purple,
       body: Center(
-        child: Column(),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: <Widget>[
+            Icon(
+              Icons.home,
+              size: 100.0,
+              color: Colors.white,
+            ),
+            SizedBox(
+              height: 24.0,
+            ),
+            Text(
+              "ASCOTT",
+              style: TextStyle(fontSize: 30, color: Colors.white),
+            ),
+          ],
+        ),
       ),
     );
   }
