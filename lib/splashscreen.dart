@@ -22,7 +22,11 @@ class _SplashScreen extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
+    return Scaffold(
+      backgroundColor: Colors.purple,
+      body: Center(
+        child: Column(),
+      ),
+    );
   }
 }
