@@ -41,6 +41,13 @@ class _SplashScreen extends State<SplashScreen> {
               "ASCOTT",
               style: TextStyle(fontSize: 30, color: Colors.white),
             ),
+            Text(
+              "CARES",
+              style: TextStyle(
+                  fontSize: 32,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white),
+            ),
           ],
         ),
       ),
